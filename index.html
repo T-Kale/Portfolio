@@ -1,56 +1,79 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-    <!--Site details-->
+
+    <!--Meta/Site details-->
     <title>Kale's Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
     <meta name="color-scheme" content="dark">
-    <link rel="icon" type="image/x-icon" href="/Images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="Images\favicon.ico">
 
     <link href="https://fonts.googleapis.com/css2?family=Open Sans:wght@300;400;600&display=swap" rel="stylesheet">
-
-    <!-- Style headers -->
-    <style>
-        h2 {text-align: left;}
-        h2 {font-family: Open Sans;}
-        h2 {color: #1c79a7;}
-    </style>
-
-    <!-- Style body text -->
-    <style>
-        p {text-align: left;}
-        p {font-family: Open Sans;}
-        p {color:#d9e2e7 }
-    </style>
-    
-    <!-- background stuff -->
-    <style>
-        body {
-        background-color: #051d29;
-        color: #d9e2e7;
-        font-family: "Open Sans";     
-        margin: 0 auto;
-    }
-
-    .container {
-        background-color: #072737;    
-        width: 85%;        
-        margin: 40px auto;          
-        padding: 30px;
-        border-radius: 8px;             
-    }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson Hyperlegible:wght@300;400;600&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
-  <div class="container">
-    <h2>If you found this page, well done!</h2>
-    <p>This page is still under construction. Check back soon!</p>
-  </div>
+    <div class="Maincontainer">
+
+        <!-- TOP NAV ===================================================================================================================== -->
+
+        <div class="TopNavBackdrop">
+
+            <div class="topnav">
+                <a class="active" href="index.html">Home</a>
+                <a href="About.html">About Me</a>
+                <a href="Projects">Placeholder</a>
+                <a href="Gallery.html">Photo Gallery</a>
+                <a href="files.html">Reports & downloads</a>
+                <!--<a href="Publications.html">My Publications</a>-->
+                <a href="Access.html">Accessibility</a>
+                <a href="Contact.html">Contact</a>
+            </div>
+
+        </div>
+
+        <h2>If you found this page, well done!</h2>
+        <p>This page is still under construction. Check back soon!</p>
+     
+        <!--Secondary ribbon with my social links and acsessability controls-->
+
+        <div class="LinksControlsRibbon">
+
+            <div class="LCribbon-left">
+
+                <!--TODO:Find SVG for linkedin and swap in approprate SVG code to control logo coloring-->
+
+                <a href="https://www.linkedin.com/in/tkalep/" target="_blank">
+                    <img src="Images\InBug-White.png" alt="LinkedIn" style="width: 24px;height:24px;">
+                    My LinkedIn 
+                </a>
+                
+                <a href="https://github.com/T-Kale" target="_blank">
+                    <img src="Images\GitHub_Invertocat_White_Clearspace.svg" alt="GitHub" style="width:24px;height:24px;">
+                    My GitHub 
+                </a>
+
+            </div>
+
+            <div class="LCribbon-right">
+                <button id="font-toggle">Readable Font</button>
+                <button id="text-toggle">A+</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+  <!--JavaScript ============================================================================================================= -->
+
+    <!--Control for fonts-->
+    <script src="Scripts/ControlReadableFont.js"></script>
+    <script src="Scripts/LargeFont.js"></script>
+
 </body>
 
-<!-- Nothing hidden in here either. Stop snooping ; )-->
 
 </html>
