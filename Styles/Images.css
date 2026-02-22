@@ -1,0 +1,8 @@
+/*Image placement templates*/
+
+.Imagecontainer_Banner{
+    display: flex;
+    flex-direction: row;
+    background: var(--navbarcolor);
+    border-radius: 8px; 
+}

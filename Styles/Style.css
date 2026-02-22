@@ -1,0 +1,48 @@
+/*Background body ---------------------------------------------------------------------------------------*/
+
+body{
+    font-family: var(--font);
+    background-color: var(--sitebackdrop);
+    color: var(--paragraph);    
+    transition: var(--transition);     
+}
+
+/*Website Primary container ------------------------------------------------------------------------------ */
+
+.Maincontainer{
+    background-color: var(--maincontainer);    
+    width: 85%;        
+    margin: 40px auto;          
+    padding: 30px;
+    border-radius: 8px;           
+}
+
+/*text*/
+
+h2{
+    font-family: var(--font);
+    color: var(--headers);
+    font-size: 22px;
+}
+
+/*paragraph styles  --------------------------------------------------------------------------------------- */
+/*(Use <p> as you would, but instead <p class = "norm">Text here</p>*/
+
+.large{
+    font-family: var(--font);
+    color: var(--paragraph);
+    font-size: 20px;
+}
+.norm{
+    font-family: var(--font);
+    color: var(--paragraph);
+    font-size: 18px;
+}
+
+.annotation{
+    font-family: var(--font);
+    color: var(--paragraph);
+    font-size: 16px;
+}
+
+/*image Containers*/

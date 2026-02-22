@@ -1,0 +1,46 @@
+/* These are the color schemes for the website */
+
+.theme-navy{
+  /* Colors */
+  --sitebackdrop: #051d29;
+  --maincontainer: #072737;
+  
+  /* Text */
+  --paragraph: #d9e2e7;
+  --headers: #1c79a7;
+
+  /*Navbars*/
+  --navbarcolor: #0f3649;
+  --navbarcolorlight: #154963;
+  --Hover: #1c79a7;
+  --texthover: #ffffff;
+  --texthover-dark: #000000;
+  --boxshadows: 0px 8px 16px 0px rgba(0,0,0,0.2)
+
+  /*other*/
+  --transition: 0.2s ease;
+  
+}
+
+.theme-nature{
+  /* Colors */
+  --sitebackdrop: #1e4620;
+  --maincontainer: #2c5f2d;
+  
+  /* Text */
+  --paragraph: #d9e2e7;
+  --headers: #50b854;
+
+  /*Navbars*/
+  --navbarcolor:#215024;
+  --Hover: #317b35;
+  --texthover: #ffffff;
+  --texthover-dark: #000000;
+  --boxshadows: 0px 8px 16px 0px rgba(0,0,0,0.2)
+
+  /*other*/
+  --transition: 0.2s ease;
+
+}
+
+
