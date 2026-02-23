@@ -4,6 +4,6 @@ function setFont(name) {
 }
 
 function setTheme(name) {
-  document.documentElement.classList.remove('theme-navy', 'theme-nature');
+  document.documentElement.classList.remove('theme-navy', 'theme-nature','theme-white','theme-solar');
   document.documentElement.classList.add(name);
 }
