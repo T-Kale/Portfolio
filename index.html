@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="Styles/Nav_bars.css">
     <link rel="stylesheet" href="Styles/Fonts.css">
     <link rel="stylesheet" href="Styles/Dropdowns.css">
+    <link rel="stylesheet" href="Styles/Images.css">
 
 </head>
 
@@ -32,17 +33,19 @@
         <!-- TOP NAV ===================================================================================================================== -->
 
         <div class="topnav">
-            <a class="active" href="index.html">Home</a>
-            <a href="About.html">About Me</a>
-            <a href="Projects.html">My Projects</a>
-            <a href="Gallery.html">Photo Gallery</a>
-            <a href="files.html">Reports & downloads</a>
-            <a href="Contact.html">Contact</a>
+            <a class="active" href="index.html"><p class="norm">Home</p></a>
+            <a href="About.html"><p class="norm">About Me</p></a>
+            <a href="Projects.html"><p class="norm">My Projects</p></a>
+            <a href="Gallery.html"><p class="norm">Photo Gallery</p></a>
+            <a href="files.html"><p class="norm">Reports & Downloads</p></a>
+            <a href="Contact.html"><p class="norm">Contact</p></a>
         </div>
 
         <!-- Banner image ================================================================================================================== -->
 
-        <!--No Images to show... yet-->
+        <div class ="Imagecontainer">
+            <img src="Images/Placeholder Banner.png">
+        </div>
 
         <!-- Secondary Ribbon ============================================================================================================== -->
 
@@ -67,16 +70,18 @@
                 <div class="dropdown">
                     <button class="dropbtn"><p class="annotation">Select Font</p></button>
                         <div class="dropdown-content">
-                            <a onclick="setFont('font-Open_Sans')">Open Sans</a>
                             <a onclick="setFont('font-Atkinson_Hyperlegible')">Atkinson Hyperlegible</a>
+                            <a onclick="setFont('font-Open_Sans')">Open Sans</a>
                         </div>
                 </div>
 
                 <div class="dropdown">
                     <button class="dropbtn"><p class="annotation">Select Theme</p></button>
                         <div class="dropdown-content">
-                            <a onclick="setTheme('theme-navy')">Night Sky Navy</a>
+                            <a onclick="setTheme('theme-navy')">Navy (Dark)</a>
+                            <a onclick="setTheme('theme-white')">White</a>
                             <a onclick="setTheme('theme-nature')">Natural Green</a>
+                            <a onclick="setTheme('theme-solar')">Solar</a>
                         </div>
                 </div>
             </div>
