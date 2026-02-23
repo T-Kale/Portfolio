@@ -15,7 +15,6 @@
   --Hover: #1c79a7;
   --texthover: #ffffff;
   --texthover-dark: #000000;
-  --boxshadows: 0px 8px 16px 0px rgba(0,0,0,0.2)
 
   /*other*/
   --transition: 0.2s ease;
@@ -24,8 +23,8 @@
 
 .theme-nature{
   /* Colors */
-  --sitebackdrop: #1e4620;
-  --maincontainer: #2c5f2d;
+  --sitebackdrop: #0a1d0a;
+  --maincontainer: #1a3a1b;
   
   /* Text */
   --paragraph: #d9e2e7;
@@ -33,14 +32,54 @@
 
   /*Navbars*/
   --navbarcolor:#215024;
+  --navbarcolorlight: #2b662f;
   --Hover: #317b35;
   --texthover: #ffffff;
   --texthover-dark: #000000;
-  --boxshadows: 0px 8px 16px 0px rgba(0,0,0,0.2)
 
   /*other*/
   --transition: 0.2s ease;
 
 }
 
+.theme-solar{
+  /* Colors */
+  --sitebackdrop: #999933;
+  --maincontainer: #bbbb43;
+  
+  /* Text */
+  --paragraph: #000000;
+  --headers: #424203;
 
+  /*Navbars*/
+  --navbarcolor:#dada52;
+  --navbarcolorlight:#f1f150;
+  --Hover: #f3f397;
+  --texthover: #000000;
+  --texthover-dark: #000000;
+
+  /*other*/
+  --transition: 0.2s ease;
+
+}
+
+.theme-white{
+  /* Colors */
+  --sitebackdrop: #999999;
+  --maincontainer: #d5d5d5;
+  
+  /* Text */
+  --paragraph: #000000;
+  --headers: #515151;
+
+  /*Navbars*/
+  --navbarcolor:#cfcfcf;
+  --navbarcolorlight:#ffffff;
+  --Hover: #9c9c9c;
+  --texthover: #000000;
+  --texthover-dark: #000000;
+
+  /*other*/
+  --transition: 0.2s ease;
+
+}

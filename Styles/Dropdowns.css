@@ -31,7 +31,10 @@
     border-radius: 8px;
 }
 
-.dropdown-content a:hover {background-color: var(--Hover);}
+.dropdown-content a:hover {
+    background-color: var(--Hover);
+    transition: 0.2s ease;
+}
 
 .dropdown:hover .dropdown-content {display: block;}
 

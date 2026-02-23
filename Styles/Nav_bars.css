@@ -19,6 +19,7 @@
 .topnav a:hover{
     color: var(--texthover);
     background-color: var(--Hover);
+    transition: 0.2s ease;
 }
 
 /*Secondary Navbar --------------------------------------------------------- */

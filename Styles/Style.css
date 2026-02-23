@@ -22,17 +22,13 @@ body{
 h2{
     font-family: var(--font);
     color: var(--headers);
-    font-size: 22px;
+    font-size: 28px;
 }
 
 /*paragraph styles  --------------------------------------------------------------------------------------- */
 /*(Use <p> as you would, but instead <p class = "norm">Text here</p>*/
 
-.large{
-    font-family: var(--font);
-    color: var(--paragraph);
-    font-size: 20px;
-}
+
 .norm{
     font-family: var(--font);
     color: var(--paragraph);

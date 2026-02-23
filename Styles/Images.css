@@ -1,8 +1,13 @@
 /*Image placement templates*/
 
-.Imagecontainer_Banner{
+.Imagecontainer{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
     display: flex;
     flex-direction: row;
-    background: var(--navbarcolor);
-    border-radius: 8px; 
+    justify-content: center;
+    width: 100%;
+    aspect-ratio: 1400 / 350;
+    border-radius: 6px;
+    overflow: hidden;
 }
