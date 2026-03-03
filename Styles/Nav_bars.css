@@ -57,7 +57,7 @@
 
 }
 
-@media (max-width: 600px) { /*Control top navbar on mobile devices*/
+@media screen and (max-width: 600px) { /*Control top navbar on mobile devices*/
 
     .topnav {
         flex-direction: column;
@@ -134,7 +134,7 @@
     justify-content: flex-end; 
 }
 
-@media (max-width: 600px) { /*remove secondary ribbon on mobile */
+@media screen and (max-width: 600px) { /*remove secondary ribbon on mobile */
 
     .LinksControlsRibbon {
         display: none;

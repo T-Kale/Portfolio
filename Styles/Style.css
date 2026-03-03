@@ -43,7 +43,7 @@ h2{
     font-size: 16px;
 }
 
-@media (max-width: 600px){ /*shrink fonts on mobile*/
+@media screen and (max-width: 600px){ /*shrink fonts on mobile*/
 
     h2{
         font-size: 20px;
