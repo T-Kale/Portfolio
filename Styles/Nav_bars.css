@@ -2,28 +2,109 @@
 
 .topnav{
     display: flex;
-    flex-wrap: wrap;
+    padding: 0.75rem;
     flex-direction: row;
     background: var(--navbarcolor);
-    border-radius: 8px; 
+    border-radius: 8px;
     justify-content: center;
-    align-items: center;
-    gap: 1rem;
 }
 
-.topnav a{
-    flex: 1;
-    text-align: center;
-    padding: 1rem;
+.nav-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.topnav a {
+    width: 100%;
+    padding: 0.75rem;
     color: var(--paragraph);
     text-decoration: none;
     border-radius: 8px;
+    text-align: center;
 }
 
 .topnav a:hover{
     color: var(--texthover);
     background-color: var(--Hover);
     transition: 0.2s ease;
+}
+
+.topnav-controls {
+    display: none;
+}
+
+.main-menu { /*for mobile only*/
+    display: none;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: var(--paragraph);
+    cursor: pointer;
+}
+
+.settings-menu { /*for mobile only*/
+    display: none;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: var(--paragraph);
+    cursor: pointer;
+}
+
+.settings { /*Hides the settings div written into top nav. Its only appears on mobile when settings is clicked.*/
+    display: none;
+
+}
+
+@media (max-width: 600px) { /*Control top navbar on mobile devices*/
+
+    .topnav {
+        flex-direction: column;
+        padding: 0.5rem 1rem;
+        align-items: stretch;
+    }
+
+    .main-menu {
+        display: block;
+    }
+
+    .settings-menu {
+        display: block;
+    }
+
+    .topnav-controls {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .topnav a {
+        display: block;
+        width: 100%;
+        text-align: left;
+        padding: 0.75rem 1rem;
+    }
+
+    .topnav .nav-links { /*hides links by defult*/
+        display: none;
+        flex-direction: column;
+        align-self: flex-start;
+    }
+
+    .topnav.menu-open .nav-links { /*Show Links*/
+        display: flex;
+    }
+
+    .topnav .settings { /*hides settings by defult*/
+        display: none;
+        flex-direction: column;
+        align-self: flex-start;
+    }
+
+    .topnav.settings-open .settings {/*Show settings*/
+        display: flex;
+    }
 }
 
 /*Secondary Navbar --------------------------------------------------------- */
@@ -53,27 +134,10 @@
     justify-content: flex-end; 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 600px) { /*remove secondary ribbon on mobile */
+
     .LinksControlsRibbon {
-        margin-top: 1rem;
-        flex-direction: column;
-        gap: 0.5rem;
-        background-color: var(--navbarcolor);
-    }
-
-    .LCribbon-right {
-        margin-left: 0;
-        justify-content: flex-start;
-    }
-
-    .LCribbon-left a {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-
-    margin-right: 1rem;
-    text-decoration: none;
-    color: #d9e2e7;
+        display: none;
     }
 }
 

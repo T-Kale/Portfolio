@@ -30,6 +30,8 @@ h2{
 
 
 .norm{
+    display: inline;
+    margin: 0;
     font-family: var(--font);
     color: var(--paragraph);
     font-size: 18px;
@@ -41,4 +43,17 @@ h2{
     font-size: 16px;
 }
 
-/*image Containers*/
+@media (max-width: 600px){ /*shrink fonts on mobile*/
+
+    h2{
+        font-size: 20px;
+    }
+
+    .norm{
+        font-size: 16px;
+    }
+
+    .annotation{
+        font-size: 14px;
+    }
+}

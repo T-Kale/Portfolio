@@ -35,12 +35,30 @@
         <!-- TOP NAV ===================================================================================================================== -->
 
         <div class="topnav">
-            <a class="active" href="index.html"><p class="norm">Home</p></a>
-            <a href="About.html"><p class="norm">About Me</p></a>
-            <a href="Projects.html"><p class="norm">My Projects</p></a>
-            <a href="Gallery.html"><p class="norm">Photo Gallery</p></a>
-            <a href="files.html"><p class="norm">Reports & Downloads</p></a>
-            <a href="Contact.html"><p class="norm">Contact</p></a>
+
+            <div class="topnav-controls">
+                <button class="main-menu">☰</button>
+                <button class="settings-menu">⚙</button>
+            </div>
+
+            <div class="nav-links">
+                <a href=About.html><p class = "norm">About Me</p></a>
+                <a href="Projects.html"><p class = "norm">My Projects</p></a>
+                <a href="Gallery.html"><p class = "norm">Photo Gallery</p></a>
+                <a href="files.html"><p class = "norm">Reports & Downloads</p></a>
+                <a href="Contact.html"><p class = "norm">Contact</p></a>
+            </div>
+
+            <div class = "settings"> <!--IMPORTANT: This has no connection to the desktop settings control.-->
+                Fonts
+                <a onclick="setFont('font-Atkinson_Hyperlegible')">Atkinson Hyperlegible</a>
+                <a onclick="setFont('font-Open_Sans')">Open Sans</a>
+                Themes
+                <a onclick="setTheme('theme-navy')">Navy (Dark)</a>
+                <a onclick="setTheme('theme-white')">White</a>
+                <a onclick="setTheme('theme-nature')">Natural Green</a>
+                <a onclick="setTheme('theme-solar')">Solar</a>
+            </div>
         </div>
 
         <!-- Banner image ================================================================================================================== -->
@@ -97,6 +115,7 @@
   <!--JavaScript ============================================================================================================= -->
 
     <script src="Scripts/ThemeFontSelect.js"></script>
+    <script src="Scripts/TopNavMobile.js"></script>
 
 </body>
 
