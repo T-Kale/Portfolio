@@ -2,9 +2,12 @@
 
 .topnav{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     background: var(--navbarcolor);
     border-radius: 8px; 
+    justify-content: center;
+    gap: 1rem;
 }
 
 .topnav a{
