@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-navy font-Open_Sans">
+
+<head>
+    <!--THIS IS A TEMPLATE FOR BUILDING FUTURE SUB PAGES-->
+
+    <!--Meta/Site details-->
+    <title>Kale's Portfolio</title>
+
+    <meta name="color-scheme" content="dark">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" type="image/x-icon" href="../Images/favicon.ico">
+
+    <script src="Mem.js" defer></script>
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    
+    <!--Internal Styles-->
+    <link rel="stylesheet" href="../Styles/themes.css">
+    <link rel="stylesheet" href="../Styles/Style.css">
+    <link rel="stylesheet" href="../Styles/Nav_bars.css">
+    <link rel="stylesheet" href="../Styles/Fonts.css">
+    <link rel="stylesheet" href="../Styles/Dropdowns.css">
+    <link rel="stylesheet" href="../Styles/Images.css">
+    <link rel="stylesheet" href="../Styles/About.css">
+
+</head>
+
+<body>
+    <div class="Maincontainer">
+
+        <!-- TOP NAV ===================================================================================================================== -->
+        <div class="topnav">
+
+            <div class="topnav-controls">
+                <button class="main-menu">☰</button>
+                <button class="settings-menu">⚙</button>
+            </div>
+
+            <div class="nav-links">
+                <a href="../index.html"><p class="norm">Return Home</p></a>
+                <a href="../Pages/Projects.html"><p class = "norm">My Projects</p></a>
+                <!--<a href="Pages/pub.html"><p class = "norm">Publications</p></a>-->
+                <a href="../Pages/Gallery.html"><p class = "norm">Photo Gallery</p></a>
+                <a href="../Pages/files.html"><p class = "norm">Reports & Downloads</p></a>
+                <a href="../Pages/Contact.html"><p class = "norm">Contact Me</p></a>
+            </div>
+
+            <div class = "settings"> <!--IMPORTANT: This has no connection to the desktop settings control.-->
+
+                <div class ="MobileFontSettings">
+                    <h2>select a font:</h2>
+                    <a onclick="setFont('font-Atkinson_Hyperlegible')">Atkinson Hyperlegible</a>
+                    <a onclick="setFont('font-Open_Sans')">Open Sans</a>
+                </div>
+
+                <div class = "MobileThemeSettings">
+                    <h2>Select a theme:</h2>
+                    <a onclick="setTheme('theme-navy')">Dark</a>
+                    <a onclick="setTheme('theme-white')">Light</a>
+                    <a onclick="setTheme('theme-nature')">Natural Green</a>
+                    <a onclick="setTheme('theme-solar')">Solar</a>
+                </div>
+            </div>
+        </div>
+            
+        <!-- Content =========================================================================================================================-->
+
+        <h2>About Me</h2>
+
+        <div class = "textbox">
+            <p class="norm">
+                My name is Kale Parnham, and I'm a mechanical engineering student building a multidisciplinary foundation across mechanical engineering, engineering physics, 
+                and computational mathematics. I'm developing strengths in simulation, theoretical & applied mechanics, and physics-driven modeling. 
+            </p>
+        </div>
+
+        <div class = "textbox">
+            <p class = "norm">
+                I'm particularly interested in systems that demand reliability, efficiency, and iterative refinement. My goal is to contribute to complex, high-performance 
+                engineered systems where precision and accountability matter.
+            </p>
+        </div>
+
+        <h2>What I'm Studying</h2>
+        
+        <div class = "textbox">
+            <p class="norm">
+                My academic work centers on core mechanical engineering principles-statics, dynamics, thermodynamics, materials, and numerical methods. I'm expanding my studies 
+                to incorporate engineering physics and computational mathematics to deepen my analytical foundation. 
+            </p>
+        </div>
+
+        <div class = "textbox">
+            <p class="norm">
+                I'm especially interested in understanding the mathematics beneath engineering tools, not just how to use them, but why they work and how to improve them. 
+                I'm also drawn to additive manufacturing technologies and space systems.
+            </p>
+        </div>
+
+        <h2>What I'm Building</h2>
+
+        <div class = "textbox">
+            <p class="norm">
+                Outside of coursework, I work extensively on personal and academic projects involving CAD, prototyping, and 3D printing. I treat projects as experiments in 
+                structured problem-solving and as a way to strengthen technical intuition.  
+            </p>
+        </div>
+
+        <div class = "textbox">
+             <p class="norm">Some Current Projects include:
+             </p>
+        </div>
+
+        <div class = "textbox">
+             <p class="norm"> - Building a radio telescope
+             </p>
+        </div>
+
+        <div class = "textbox">
+             <p class="norm"> - Designing and manufacturing competition robotics hardware.
+             </p>
+        </div>
+
+        <div class = "textbox">
+             <p class="norm"> - Developing a simulation tool that models gravitational and celestial dynamics.
+             </p>
+        </div>
+
+        <div class = "textbox">
+             <p class="norm">Through these projects, I'm refining my modeling discipline, documentation practices, and analytical rigor.
+             </p>
+        </div>
+
+        <h2>What I'm Working Towards</h2>
+
+        <div class = "textbox">
+             <p class="norm">
+                Long term, I aim to work on technically demanding systems that require cross-disciplinary thinking and continuous improvement. 
+                I’m motivated by environments where engineering decisions carry weight and responsibility.
+            </p>
+        </div>
+
+        <div class ="resume">
+            <a href="../Assets/Res2026_V3_pub.pdf" target="_blank">
+                <h2>View my Resume</h2>
+            </a>
+        </div>
+
+        <!-- Footer =========================================================================================================================-->
+
+        <p class = "copyright">© 2026 Kale Parnham</p>
+    </div>
+
+    <!--JavaScript ============================================================================================================= -->
+
+    <script src="../Scripts/ThemeFontSelect.js"></script>
+    <script src="../Scripts/TopNavMobile.js"></script>
+    <script src="../Scripts/Mem.js"></script>
+
+</body>
