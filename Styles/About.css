@@ -1,0 +1,16 @@
+/*formatting for about text boxes*/
+
+.textbox{
+    margin-top: 1rem;
+}
+
+.resume a {
+    margin-top: 2rem;
+    height: 50px;
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+    background-color: var(--navbarcolor);
+    border-radius: 8px; 
+    text-decoration: none;
+}
