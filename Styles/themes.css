@@ -42,27 +42,6 @@
 
 }
 
-.theme-solar{
-  /* Colors */
-  --sitebackdrop: #999933;
-  --maincontainer: #bbbb43;
-  
-  /* Text */
-  --paragraph: #000000;
-  --headers: #424203;
-
-  /*Navbars*/
-  --navbarcolor:#dada52;
-  --navbarcolorlight:#f1f150;
-  --Hover: #f3f397;
-  --texthover: #000000;
-  --texthover-dark: #000000;
-
-  /*other*/
-  --transition: 0.2s ease;
-
-}
-
 .theme-white{
   /* Colors */
   --sitebackdrop: #999999;
@@ -73,7 +52,7 @@
   --headers: #515151;
 
   /*Navbars*/
-  --navbarcolor:#cfcfcf;
+  --navbarcolor:#a09c9c;
   --navbarcolorlight:#ffffff;
   --Hover: #9c9c9c;
   --texthover: #000000;

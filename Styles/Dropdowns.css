@@ -3,10 +3,16 @@
     background-color: var(--navbarcolorlight);
     color: var(--paragraph);
     width: 160px;
+    height: 35px;
     border-radius: 8px;
     margin-right: 15px;
     padding: 1px;
     border: none;
+}
+
+.dropbtn a{
+    justify-content:center;
+    border: green 2px solid;
 }
 
 .dropdown {

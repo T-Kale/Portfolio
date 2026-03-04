@@ -1,0 +1,25 @@
+/*Styles for contact page*/
+
+.linkcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.link a {
+    display: flex;
+    align-items: center;
+    gap: 8px;          /* space between icon and text */
+    text-decoration: none;
+}
+
+.ContactBody{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 600px) { /*Switch direction on mobile*/
+    .linkcontainer{
+        flex-direction: column;
+        }
+}

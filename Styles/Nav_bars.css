@@ -6,22 +6,24 @@
     flex-direction: row;
     background: var(--navbarcolor);
     border-radius: 8px;
-    justify-content: center;
+    align-items: stretch;
 }
 
 .nav-links {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .topnav a {
-    width: 100%;
+    display: flex;
     padding: 0.75rem;
     color: var(--paragraph);
     text-decoration: none;
     border-radius: 8px;
     text-align: center;
+    justify-content: center;
 }
 
 .topnav a:hover{
@@ -73,6 +75,12 @@
         display: block;
     }
 
+    .settings a.active {
+        background-color: var(--headers);
+        border-radius: 8px;
+        transition: 0.2s ease;
+    }
+    
     .topnav-controls {
         display: flex;
         justify-content: space-between;
@@ -105,12 +113,18 @@
     .topnav.settings-open .settings {/*Show settings*/
         display: flex;
     }
+
+    .MobileFontSettings {
+    margin-top: 0.5rem;
+    }
+
 }
 
 /*Secondary Navbar --------------------------------------------------------- */
 
 .LinksControlsRibbon{ 
     margin-top: 1rem;
+    height: 50px;
     display: flex;  
     align-items: center; 
     background-color: var(--navbarcolor);
@@ -127,8 +141,6 @@
 } 
 
 .LCribbon-right { 
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
     margin-left: auto; 
     display: flex; 
     justify-content: flex-end; 
@@ -136,7 +148,7 @@
 
 @media screen and (max-width: 600px) { /*remove secondary ribbon on mobile */
 
-    .LinksControlsRibbon {
+    .LCribbon-right {
         display: none;
     }
 }

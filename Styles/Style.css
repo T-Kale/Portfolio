@@ -31,7 +31,7 @@ h2{
 
 .norm{
     display: inline;
-    margin: 0;
+    margin: auto;
     font-family: var(--font);
     color: var(--paragraph);
     font-size: 18px;
@@ -39,8 +39,23 @@ h2{
 
 .annotation{
     font-family: var(--font);
+    margin: 0;
     color: var(--paragraph);
     font-size: 16px;
+}
+
+.large{
+    font-family: var(--font);
+    color: var(--paragraph);
+    font-size: 24px;
+}
+
+.copyright{
+    margin-top: 2rem;
+    font-family: var(--font);
+    color: var(--paragraph);
+    font-size: 16px;
+    text-align: center;
 }
 
 @media screen and (max-width: 600px){ /*shrink fonts on mobile*/
