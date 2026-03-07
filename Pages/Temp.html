@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-navy font-Open_Sans">
+
+<head>
+    <!--THIS IS A TEMPLATE FOR BUILDING FUTURE SUB PAGES-->
+
+    <!--Meta/Site details-->
+    <title>Kale's Portfolio</title>
+
+    <meta name="color-scheme" content="dark">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" type="image/x-icon" href="../Images/favicon.ico">
+
+    <script src="Mem.js" defer></script>
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    
+    <!--Internal Styles-->
+    <link rel="stylesheet" href="../Styles/themes.css">
+    <link rel="stylesheet" href="../Styles/Style.css">
+    <link rel="stylesheet" href="../Styles/Nav_bars.css">
+    <link rel="stylesheet" href="../Styles/Fonts.css">
+    <link rel="stylesheet" href="../Styles/Dropdowns.css">
+    <link rel="stylesheet" href="../Styles/Images.css">
+
+</head>
+
+<body>
+    <div class="Maincontainer">
+
+        <!-- TOP NAV ===================================================================================================================== -->
+        <div class="topnav">
+
+            <div class="topnav-controls">
+                <button class="main-menu">☰</button>
+                <button class="settings-menu">⚙</button>
+            </div>
+
+            <div class="nav-links">
+                <a href="../index.html"><p class="norm">Home</p></a>
+                <a href=../Pages/About.html><p class = "norm">About Me</p></a>
+                <a href=../Pages/About.html><p class = "norm">My Projects</p></a>
+                <!--<a href="Pages/pub.html"><p class = "norm">Publications</p></a>-->
+                <a href="../Pages/Temp.html"><p class = "norm">Photo Gallery</p></a>
+                <a href="../Pages/Temp.html"><p class = "norm">Reports & Downloads</p></a>
+                <a href="../Pages/Contact.html"><p class = "norm">Contact</p></a>
+            </div>
+
+            <div class = "settings"> <!--IMPORTANT: This has no connection to the desktop settings control.-->
+
+                <div class ="MobileFontSettings">
+                    <h2>select a font:</h2>
+                    <a onclick="setFont('font-Atkinson_Hyperlegible')">Atkinson Hyperlegible</a>
+                    <a onclick="setFont('font-Open_Sans')">Open Sans</a>
+                </div>
+
+                <div class = "MobileThemeSettings">
+                    <h2>Select a theme:</h2>
+                    <a onclick="setTheme('theme-navy')">Dark</a>
+                    <a onclick="setTheme('theme-white')">Light</a>
+                    <a onclick="setTheme('theme-nature')">Natural Green</a>
+                </div>
+            </div>
+        </div>
+            
+        <!-- Content =========================================================================================================================-->
+        
+        <h2>If you found this page, well done!</h2>
+        <p class="norm">This page is still under construction. Check back soon!</p>
+
+
+        <!-- Footer =========================================================================================================================-->
+
+        <p class = "copyright">© 2026 Kale Parnham.</p>
+    </div>
+
+    <!--JavaScript ============================================================================================================= -->
+
+    <script src="../Scripts/ThemeFontSelect.js"></script>
+    <script src="../Scripts/TopNavMobile.js"></script>
+    <script src="../Scripts/Mem.js"></script>
+
+</body>
